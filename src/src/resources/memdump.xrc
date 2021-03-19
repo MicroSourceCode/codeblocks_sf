@@ -66,8 +66,8 @@
 				<border>4</border>
 			</object>
 			<object class="sizeritem">
-				<object class="wxTextCtrl" name="txtDump">
-					<style>wxTE_MULTILINE|wxTE_READONLY|wxHSCROLL</style>
+				<object class="wxListBox" name="txtDump">
+					<default>-1</default>
 				</object>
 				<flag>wxTOP|wxEXPAND</flag>
 				<border>4</border>
